@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Card from '../shared/Card';
-import Tabs from '../shared/Tabs';
+import { Tabs } from '../shared/Tabs';
 import { TabsList, TabsTrigger } from '../shared/Tabs';
 
 const EnergyConsumption = ({ data }) => {
